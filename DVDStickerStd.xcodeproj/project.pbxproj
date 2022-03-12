@@ -40,12 +40,14 @@
 		E41D5FDC27DC26730068F964 /* DVDStickerStd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DVDStickerStd.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E41D5FE027DC26740068F964 /* DVDStickerStd StickerPackExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "DVDStickerStd StickerPackExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E41D5FE427DC26740068F964 /* Stickers.xcstickers */ = {isa = PBXFileReference; lastKnownFileType = folder.stickers; name = Stickers.xcstickers; path = "DVDStickerStd StickerPackExtension/Stickers.xcstickers"; sourceTree = "<group>"; };
+		E41D5FF027DC3C360068F964 /* Privacy Policy.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Privacy Policy.md"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		E41D5FD527DC26730068F964 = {
 			isa = PBXGroup;
 			children = (
+				E41D5FF027DC3C360068F964 /* Privacy Policy.md */,
 				E41D5FE427DC26740068F964 /* Stickers.xcstickers */,
 				E41D5FDD27DC26730068F964 /* Products */,
 			);
@@ -280,6 +282,7 @@
 				DEVELOPMENT_TEAM = HWH6G9P2V2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "DVDStickerStd StickerPackExtension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "DVD Stickers";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = works.dd.DVDStickerStd.StickerPackExtension;
@@ -299,6 +302,7 @@
 				DEVELOPMENT_TEAM = HWH6G9P2V2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "DVDStickerStd StickerPackExtension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "DVD Stickers";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = works.dd.DVDStickerStd.StickerPackExtension;
@@ -318,6 +322,11 @@
 				DEVELOPMENT_TEAM = HWH6G9P2V2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DVDStickerStd/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "DVD Stickers";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = works.dd.DVDStickerStd;
@@ -336,6 +345,11 @@
 				DEVELOPMENT_TEAM = HWH6G9P2V2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DVDStickerStd/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "DVD Stickers";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = works.dd.DVDStickerStd;
